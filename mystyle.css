@@ -1,0 +1,141 @@
+nav {
+    margin-left: 10px;
+
+}
+
+.a01 {
+    margin-left: 85%;
+    background-color: blueviolet;
+    height: auto;
+    width: 300px;
+}
+
+.a02 {
+
+
+    height: auto;
+    width: 300px;
+}
+
+.buttonlogin {
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 160px;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.buttonlogin-container {
+    margin-left: 25%;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.buttonyes {
+    background-color: #6ac2d6c3;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #6ac2d6c3;
+
+}
+
+.buttonback {
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: whitesmoke;
+}
+
+
+.buttonindex {
+    background-color: white;
+    color: #668aff;
+    padding: 5px 10px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu {
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 160px;
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+
+.menu-button {
+    background: gray;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background: #eee;
+}
+
+.menu-container:hover .menu,
+.menu-container:focus-within .menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+
+
+.pindex {
+    text-align: center;
+}
+
+.bg {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 2%;
+    background-color: rgb(215, 227, 237);
+
+    border-radius: 1%;
+    width: 50%;
+    height: 55%;
+}
+
+.form-row {
+    margin-left: 25%;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-top: 10px;
+    height: 30%;
+    width: 50%;
+    border-radius: 10%;
+}
+
+label{
+    margin-top: 5%;
+}
